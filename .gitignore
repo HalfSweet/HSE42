@@ -1,0 +1,51 @@
+# KiCAD项目的.gitignore文件
+
+# 备份文件
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# 网表文件（如果不希望在版本控制中跟踪）
+*.net
+
+# 生成的输出文件
+out/
+*.xml
+*.csv
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Gerber文件（通常不包含在版本控制中，但如果需要可以移除这些行）
+*.gbr
+*.drl
+*.gbrjob
+gerber/
+
+# 位置文件
+*.pos
+
+# 3D模型和STEP文件（通常不包含在版本控制中，但如果需要可以移除这些行）
+3d-models/
+*.step
+*.stp
+*.wrl
+
+# 其他可能需要忽略的文件
+.DS_Store
+.directory
+Thumbs.db
+.idea/
+*-cache.lib
+*-rescue.lib
